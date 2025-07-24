@@ -1,28 +1,44 @@
 # MERN-Stack-CRUD-App
-A Blog CRUD Web app using MERN Stack
+A Blog CRUD Web App built with the MERN Stack.
 
-Front-End - React
+**Front-End:** React  
+**Back-End:** Node.js, Express.js & MongoDB
 
-Back-End - Node.js, Express.js & MongoDB
+---
 
-To run it locally -
+## Prerequisites
+- Node.js (>= v12) and npm installed
+- MongoDB installed and running locally
 
-Steps to run in development mode:-
+## Setup & Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/zibrasismail/MERN-Stack-CRUD-App.git
+   cd MERN-Stack-CRUD-App
+   ```
+2. Install server dependencies:
+   ```bash
+   npm install
+   ```
+3. Install client dependencies:
+   ```bash
+   cd client
+   npm install
+   ```
+4. Start MongoDB (in a separate terminal):
+   ```bash
+   mongod
+   ```
+5. Run the server (from the root directory):
+   ```bash
+   npm start
+   ```
+   This will start the Node/Express server on http://localhost:5000.
+6. Run the client (in another terminal):
+   ```bash
+   cd client
+   npm start
+   ```
+   This will start the React app on http://localhost:3000.
 
-1.Fork the repo and clone it.
-
-2.Switch to development branch for running in development mode.
-
-3.Make sure you have yarn Node.js & MongoDB installed in your system.
-
-4.[Only once] Run (from the root) npm install and cd client && npm install.
-
-5.Open two terminal windows (one for running Server and other for the UI).
-
-6.Start MongoDB service with in cmd type mongod and start.
-
-7.Run npm server to start the server.
-
-8.For UI run npm client and it will open on a new tab on port 3000.
-
-9.Go to http://localhost:3000 to see the application running.
+Open your browser and navigate to http://localhost:3000 to use the application.
